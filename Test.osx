@@ -1,0 +1,24 @@
+byteSize(74) PC(14) Loader(0)
+1:0: ; osX Assembler in Verbose Mode
+2:0: COUNT .WORD 1 (1)  ; osX Assembler in Verbose Mode
+3:4: INDEX .WORD 3 (3)  ; osX Assembler in Verbose Mode
+4:8: RASN .WORD 4 (4)  ; osX Assembler in Verbose Mode
+5:12: ASCI .BYTE 'k' (107)  ; osX Assembler in Verbose Mode
+6:13: ASCII .BYTE \0 (0)  ; osX Assembler in Verbose Mode
+7:14: MVI (22)  R1 (1)  ; osX Assembler in Verbose Mode
+8:20: MVI (22)  R2 (2)  ; osX Assembler in Verbose Mode
+9:26: ADD (16)  R0 (0)  R1 (1)  R2 (2)    ; osX Assembler in Verbose Mode
+10:32: MVI (22)  R3 (3)  ; osX Assembler in Verbose Mode
+11:38: LDR (4)  R2 (2)  [R3] (3)     ; osX Assembler in Verbose Mode
+12:44: DIV (19)  R0 (0)  R2 (2)  R0 (0)    ; osX Assembler in Verbose Mode
+13:50: SUB (17)  R0 (0)  R1 (1)  R0 (0)    ; osX Assembler in Verbose Mode
+14:56: MOV (1)  R0 (0)  R1 (1)     ; osX Assembler in Verbose Mode
+15:62: MUL (18)  R0 (0)  R1 (1)  R2 (2)    ; osX Assembler in Verbose Mode
+16:68: ADR (0)  R3 (3)  INDEX (4) ; osX Assembler in Verbose Mode
+17:74: ; osX Assembler in Verbose Mode
+5 Labels Defined
+	COUNT  0
+	INDEX  4
+	RASN  8
+	ASCI  12
+	ASCII  13
